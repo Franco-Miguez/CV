@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark text-light">
+<!--
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </div>
+      </div>
+    </div>
+  </nav>-->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid"></div>
+        <a class="navbar-brand px-2" href="index.html">Franco Miguez</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#cursos">Cursos</a>
+            <a class="nav-link" href="#conosimientos">Conosimientos</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </div>
+        </div>
+      </div>
+      </nav>
+
+    <header class="d-flex align-items-center flex-column banner" >
+      <img  src="image/face.jpg" class="m-2 photo-face" alt="my photo of face">
+      <h1 class="mt-4 p-3 text-banner">Franco Miguez</h1>
+    </header>
+    
+    <article id="cursos" class="d-flex align-items-center flex-column">
+      <h2 class="pt-5">Cursos:</h2>
+      <ul>
+          <li class="mt-3">Cursando Argentina Programa <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa">Mas info...</a></li>
+          <li class="mt-3">Curso de programacion Web full Stack (Proyecyo T.TEC) <a href="https://www.argentina.gob.ar/noticias/proyecto-trabajo-tecnologia-programacion-full-stack">Mas info...</a></li>
+          <li class="mt-3">Curso HTML <a href="https://ed.team/cursos/html">Mas info...</a></li>
+          <li class="mt-3">Curso CSS <a href="https://ed.team/cursos/css">Mas info...</a></li>
+          <li class="mt-3">Curso Javascript <a href="https://ed.team/cursos/javascript">Mas info...</a></li>
+          <li class="mt-3">Curso Master en python <a href="https://www.udemy.com/course/master-en-python-aprender-python-django-flask-y-tkinter/">Mas info...</a></li>
+      </ul>
+    </article>
+
+    <article id="conosimientos" class="bg-secondary d-flex align-items-center flex-column">
+      <h2 class="pt-5" >conosimientos:</h2>
+
+      <div class="m-4">
+        <img class="icon mx-3" src="image/icon_html.png" alt="">
+        <img class="icon mx-3" src="image/icon_css3.webp" alt="">
+        <img class="icon mx-3" src="image/icon_js.webp" alt="">
+      </div>
+
+      <div class="m-4">
+        <img class="icon mx-3" src="image/icon_json.png" alt="">
+        <img class="icon mx-3" src="image/icon_typescript.webp" alt="">
+        <img class="icon mx-3" src="image/icon_bootstrap.webp" alt="">
+      </div>
+
+      <div class="m-4">
+        <img class="icon mx-3" src="image/icon_java.webp" alt="">
+        <img class="icon mx-3" src="image/icon_python.webp" alt="">
+        <img class="icon mx-3" src="image/icon_mysql.webp" alt="">
+      </div>
+    </article>
+    
+    <article id="contacto" class="d-flex align-items-center flex-column pb-4">
+      <h2 class="pt-5">contacto:</h2>
+
+      <form action="https://formsubmit.co/franco.miguez98@gmail.com" method="POST" class="w-50">
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" id="name" placeholder="Nombre">
+        </div>
+        <div class="form-group mt-2">
+          <label for="email">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="email">
+        </div>
+        <div class="form-group mt-2">
+          <label for="Textarea">Mensaje</label>
+          <textarea class="form-control" id="Textarea" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-2">Enviar</button>
+      </form>
+    </article>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

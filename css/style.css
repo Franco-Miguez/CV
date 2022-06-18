@@ -1,0 +1,30 @@
+.photo-face{
+    width: 300px;
+    border-radius: 50%;
+    border: .3rem #222222 solid;
+}
+
+.banner{
+    background-image: url("../image/banner.jpg");
+    height: 500px; 
+    background-position: center; 
+    background-repeat: no-repeat;  
+}
+
+.text-banner{
+    background-image: linear-gradient(#222,#111);
+    
+}
+
+.icon{
+    height: 150px;
+    transition: transform .5s;
+}
+
+.icon:hover:nth-child(2n){
+    transform: scale(1.1) rotate(15deg);
+}
+
+.icon:hover:nth-child(2n+1){
+    transform: scale(1.1) rotate(-15deg);
+}
